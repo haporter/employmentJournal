@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24B1FD301E80DDE6003649A2 /* AddEmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1FD2F1E80DDE6003649A2 /* AddEmployerViewController.swift */; };
+		24B1FD311E80DDE6003649A2 /* AddEmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1FD2F1E80DDE6003649A2 /* AddEmployerViewController.swift */; };
+		24B1FD321E80DDE6003649A2 /* AddEmployerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B1FD2F1E80DDE6003649A2 /* AddEmployerViewController.swift */; };
 		24C1A6C71E6A415500C312FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C1A6C61E6A415500C312FD /* AppDelegate.swift */; };
 		24C1A6CC1E6A415500C312FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24C1A6CA1E6A415500C312FD /* Main.storyboard */; };
 		24C1A6CF1E6A415500C312FD /* EmploymentJournal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24C1A6CD1E6A415500C312FD /* EmploymentJournal.xcdatamodeld */; };
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24B1FD2F1E80DDE6003649A2 /* AddEmployerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEmployerViewController.swift; sourceTree = "<group>"; };
 		24C1A6C31E6A415500C312FD /* EmploymentJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmploymentJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24C1A6C61E6A415500C312FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24C1A6CB1E6A415500C312FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -105,6 +109,7 @@
 				24C1A6CA1E6A415500C312FD /* Main.storyboard */,
 				24C1A6F91E6A7CA200C312FD /* CompanyCollectionViewCell.swift */,
 				24C1A6F71E6A7C6500C312FD /* CompaniesCollectionViewController.swift */,
+				24B1FD2F1E80DDE6003649A2 /* AddEmployerViewController.swift */,
 				24C1A6D01E6A415500C312FD /* Assets.xcassets */,
 				24C1A6D21E6A415500C312FD /* LaunchScreen.storyboard */,
 				24C1A6D51E6A415500C312FD /* Info.plist */,
@@ -270,6 +275,7 @@
 			files = (
 				24C1A6FA1E6A7CA200C312FD /* CompanyCollectionViewCell.swift in Sources */,
 				24C1A6F81E6A7C6500C312FD /* CompaniesCollectionViewController.swift in Sources */,
+				24B1FD301E80DDE6003649A2 /* AddEmployerViewController.swift in Sources */,
 				24C1A6C71E6A415500C312FD /* AppDelegate.swift in Sources */,
 				24C1A6CF1E6A415500C312FD /* EmploymentJournal.xcdatamodeld in Sources */,
 			);
@@ -280,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C1A6DF1E6A415600C312FD /* EmploymentJournalTests.swift in Sources */,
+				24B1FD311E80DDE6003649A2 /* AddEmployerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C1A6EA1E6A415600C312FD /* EmploymentJournalUITests.swift in Sources */,
+				24B1FD321E80DDE6003649A2 /* AddEmployerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +528,7 @@
 				24C1A6F01E6A415600C312FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24C1A6F11E6A415600C312FD /* Build configuration list for PBXNativeTarget "EmploymentJournalTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +537,7 @@
 				24C1A6F31E6A415600C312FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		24C1A6F41E6A415600C312FD /* Build configuration list for PBXNativeTarget "EmploymentJournalUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +546,7 @@
 				24C1A6F61E6A415600C312FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
